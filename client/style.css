@@ -1,3 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     background-color: lightblue;
+}
+
+/* CONTACT FORM */
+form {
+    width: 500px;
+}
+.contactForm {
+    display: flex;
+    flex-direction: column;
 }

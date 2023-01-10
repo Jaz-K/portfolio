@@ -1,10 +1,11 @@
 import { createRoot } from "react-dom/client";
+import App from "./App/app";
 
 const root = createRoot(document.querySelector("main"));
-root.render(<HelloWorld />);
+root.render(<Portfolio />);
 
-function HelloWorld() {
-    return <div>HelloWorld!</div>;
+function Portfolio() {
+    return <App />;
 }
 // fetch("/api/user/me")
 //     .then((response) => response.json())
@@ -17,3 +18,4 @@ function HelloWorld() {
 //             root.render(<App />);
 //         }
 //     });
+//     {/* <div>HelloWorld!</div> */};
