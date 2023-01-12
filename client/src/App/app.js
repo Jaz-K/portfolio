@@ -1,4 +1,12 @@
 import { BrowserRouter, Routes, Route, Link, Navigate } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faUser,
+    faEnvelope,
+    faLaptopCode,
+    faHouse,
+} from "@fortawesome/free-solid-svg-icons";
+
 import Intro from "./intro";
 import Projects from "./projects";
 import About from "./about";
@@ -10,10 +18,18 @@ export default function App() {
             <BrowserRouter>
                 <header>
                     <nav>
-                        <Link to="/">Home</Link>
-                        <Link to="/projects">Projects</Link>
-                        <Link to="/about">About</Link>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/">
+                            <FontAwesomeIcon icon={faHouse} />
+                        </Link>
+                        <Link to="/projects">
+                            <FontAwesomeIcon icon={faLaptopCode} />
+                        </Link>
+                        <Link to="/about">
+                            <FontAwesomeIcon icon={faUser} />
+                        </Link>
+                        <Link to="/contact">
+                            <FontAwesomeIcon icon={faEnvelope} />
+                        </Link>
                     </nav>
                 </header>
                 <Routes>

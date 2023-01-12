@@ -1,6 +1,6 @@
 export default function Contact() {
     return (
-        <>
+        <section>
             <h1>Contact me</h1>
             <form
                 method="POST"
@@ -20,6 +20,6 @@ export default function Contact() {
                 </div>
                 <button>Submit</button>
             </form>
-        </>
+        </section>
     );
 }
