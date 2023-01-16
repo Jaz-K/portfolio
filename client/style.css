@@ -16,6 +16,7 @@ body {
 main {
     display: flex;
     background-color: rgb(12, 74, 90);
+    height: 100vh;
 }
 section {
     padding: 1rem;
@@ -32,6 +33,16 @@ form {
     flex-direction: column;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    padding: 1rem;
+    border-right: 2px solid rgb(255, 210, 8);
+    overflow-y: auto;
+}
+
 nav {
     display: flex;
     flex-direction: column;
@@ -39,21 +50,41 @@ nav {
     background-color: rgb(12, 74, 90);
     align-items: center;
     gap: 2rem;
-    padding: 1rem;
-    border-right: 2px solid rgb(255, 210, 8);
 }
 
-nav a {
+nav a,
+.social {
     color: inherit;
     font-size: 2rem;
 }
 
-nav a:hover {
+nav a:hover,
+.social:hover {
     color: rgb(138, 187, 199);
 }
+.socialBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
 
+.social {
+    font-size: 1.5rem;
+}
+
+.projects {
+    position: relative;
+    display: inline-block;
+}
 .projects img {
     width: 300px;
     height: 150px;
     background-color: cyan;
+}
+.gitIcon {
+    font-size: 1.25rem;
+    position: absolute;
+    right: 0.25rem;
+    bottom: 1.25rem;
 }

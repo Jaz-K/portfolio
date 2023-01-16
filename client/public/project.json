@@ -1,0 +1,32 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "img": "insert link",
+            "title": "First Project",
+            "subtitle": " blablabla",
+            "git-link": "https://github.com/jaz-k"
+        },
+        {
+            "id": 2,
+            "img": "insert link",
+            "title": "Second Project",
+            "subtitle": " blablabla",
+            "git-link": "https://github.com/jaz-k"
+        },
+        {
+            "id": 3,
+            "img": "insert link",
+            "title": "Third Project",
+            "subtitle": " blablabla",
+            "git-link": "https://github.com/jaz-k"
+        },
+        {
+            "id": 4,
+            "img": "insert link",
+            "title": "Fourth project",
+            "subtitle": " blablabla",
+            "git-link": "https://github.com/jaz-k"
+        }
+    ]
+}
